@@ -5,7 +5,7 @@ const title = ['ECM', 'Invoicing', 'Reporting', 'Inventory Management', 'Titles'
 $(()=>{
     var temp = document.getElementsByTagName("template")[0];
     let clon;
-    for (let index = 0; index < 12; index++) {
+    for (let index = 0; index < 11; index++) {
         clon = temp.content.cloneNode(true);
         clon.children[0].children[0].children[0].children[1].innerHTML = title[index%title.length];
         clon.children[0].children[0].children[0].children[0].classList = "fas fa-5x main_icon " + icon_name[index%icon_name.length];
