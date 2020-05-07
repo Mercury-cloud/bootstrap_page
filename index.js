@@ -7,9 +7,9 @@ $(()=>{
     let clon;
     for (let index = 0; index < 11; index++) {
         clon = temp.content.cloneNode(true);
-        clon.children[0].children[0].children[0].children[1].innerHTML = title[index%title.length];
-        clon.children[0].children[0].children[0].children[0].classList = "fas fa-5x main_icon " + icon_name[index%icon_name.length];
-        clon.children[0].children[0].children[0].children[0].style.color = icon_color[index%icon_color.length];
+        clon.children[0].children[0].children[1].children[1].innerHTML = title[index%title.length];
+        clon.children[0].children[0].children[1].children[0].classList = "fas fa-5x main_icon " + icon_name[index%icon_name.length];
+        clon.children[0].children[0].children[1].children[0].style.color = icon_color[index%icon_color.length];
         $('.flex_div').append(clon);
     }
     let tempColor;

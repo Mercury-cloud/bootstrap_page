@@ -37,6 +37,10 @@
     margin-right: 6rem;
 }
 
+.hub_box {
+    background-color: #222533 !important;
+}
+
 .box:hover {
     background-color: #666666;
 }
@@ -73,7 +77,7 @@
 }
 
 .main_icon {
-    margin-left: 0rem;
+    margin-left: 4rem;
     margin-top: 6rem;
     color: #154F7B;
 }
@@ -100,12 +104,21 @@
     margin-top: 3rem;
     margin-left: 0rem;
     margin-bottom: -2rem;
-    filter: invert(78%) sepia(75%) saturate(752%) hue-rotate(169deg) brightness(100%) contrast(93%);
+    filter: invert(0%) sepia(9%) saturate(7489%) hue-rotate(181deg) brightness(103%) contrast(107%);
+    
+    /* filter: invert(78%) sepia(75%) saturate(752%) hue-rotate(169deg) brightness(100%) contrast(93%); */
+}
+.hub_box .title, .hub_box .description {
+    color: #FFFFFF;
+}
+.hub_box .description {
+    position: absolute;
+    margin-left: 4rem;
 }
 
-.box:hover .hub_icon{
+/* .box:hover .hub_icon{
     filter: invert(0%) sepia(9%) saturate(7489%) hue-rotate(181deg) brightness(103%) contrast(107%);
-}
+} */
 
 .justify-content-center {
     display: inline-block;
